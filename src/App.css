@@ -51,7 +51,7 @@ table {
 .nav{
   position: fixed;
   top: 0px;
-  height: 55px;
+  height: 5vh;
   width: 100%;
   background-color: rgb(49, 49, 49);
   opacity: .9;
@@ -62,7 +62,6 @@ table {
   font-size: 2em;
   color: whitesmoke;
   z-index: 10;
-  /* box-shadow: 0px 5px 10px 0px gray; */
 }
 
 .Home {
@@ -150,8 +149,8 @@ table {
 .AboutMe {
   background-color: whitesmoke;
   position: relative;
-  min-height: 800px;
-  height: 100vh;
+  /* min-height: 800px; */
+  min-height: 95vh;
   height: unset;
   display: flex;
   flex-direction: column;
@@ -161,7 +160,7 @@ table {
 }
 .title {
   position: absolute;
-  top: 75px;
+  top: 30px;
   font-size: 3em;
   width: 100%;
   text-align: center;
@@ -207,8 +206,7 @@ table {
 
 .Skills {
   position: relative;
-  height: 100vh;
-  min-height: 800px;
+  min-height: 95vh;
   height: unset;
   width: 100%;
   display: flex;
@@ -248,8 +246,7 @@ table {
 
 .Projects {
   position: relative;
-  height: 100vh;
-  min-height: 800px;
+  min-height: 42vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +264,7 @@ table {
 
 .Contact {
   position: relative;
-  height: 856px;
+  min-height: 42vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,7 +285,7 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 130px;
   background-color: gainsboro;
   opacity: .9;
   border-radius: 10px;
