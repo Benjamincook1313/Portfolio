@@ -44,7 +44,7 @@ class Skills extends Component {
           </div>
           <div className='icon'>
             <i className="devicon-postgresql-plain colored"></i>
-            <p className='icon-text'>POSTGRESSQL</p>
+            <p className='icon-text'>POSTGRESQL</p>
           </div>
         </div>
       </div>
