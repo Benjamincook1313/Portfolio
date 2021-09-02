@@ -61,14 +61,14 @@ class Contact extends Component {
           <button className='send' onClick={() => this.sendEmail()}>Send Email</button>
         </div>
         <div className='links'>
-          <div className='link'>
+          {/* <div className='link'>
             <p className='link-text'>Facebook</p>
             <a href='https://www.facebook.com/BenjaminCook1313' style={{textDecoration: 'none'}}>
               <i className="devicon-facebook-plain colored"/>
             </a>
-          </div>
+          </div> */}
           <div className='link'>
-            <p className='link-text'>linked in</p>
+            <p className='link-text'>Linked In</p>
             <a  href='https://www.linkedin.com/in/benjamincook1313/' style={{textDecoration: 'none'}}>
               <img className='img' src='https://image.flaticon.com/icons/svg/174/174857.svg' alt='' />
             </a>

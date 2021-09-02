@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import Image from './Image'
+// import { Image } from './Image'
 
 class AboutMe extends Component {
   constructor(){
@@ -34,11 +34,15 @@ class AboutMe extends Component {
             <span class="sr-only">Next</span>
           </a>
         </div> */}
-          <img className='A-image' src='../' alt=''/>
+          <img className='A-image' src='' alt='Image'/>
           <div className='text-container'>
             <p className='A-text'>
-              I currently live in Utah where I was born and raised. 
-              the outdoors are where I try to spend as much time as possible.
+              Hello
+              
+              <br/>
+               Utah where I was born and raised, 
+              the outdoors is where I spend most of my days.
+              <br/>
               My hobbies include Traveling, Snowboarding, Surfing, 
               FlyFishing, Backpacking, and many more! My wife Melissa and I
               have been married since in Jan. 2013, shortly after we moved 
@@ -46,7 +50,8 @@ class AboutMe extends Component {
             </p>
             <p className='A-text'> 
               I originally chose Web development to be able to work remotely and travel,
-              after attending DevMountain and becoming part of this awesome industry, I am excited to advance my development skills,
+              after attending DevMountain and becoming part of the Web Development Community, 
+              I am excited to advance my knowledge and education of computer systems and coding,
               my current development experience includes | HTML | CSS | JavaScript | 
               React | NodeJS | Express | PostgreSQL 
             </p>
