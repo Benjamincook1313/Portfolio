@@ -1,31 +1,20 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
+import './Nav.css';
 
-class Nav extends Component {
-  constructor(){
-    super()
-    this.state = {
-      showMenu: false
-    }
-  }
-  render(){
-    const { showMenu } = this.state
-    return(
-      <div>
-        <nav className='nav'>
-          <a className='name' href='#home' style={{textDecoration: 'none'}}>Benjamin Cook</a>
-          <button className='menu' onClick={() => this.setState({showMenu: !showMenu})} >Menu</button>
-        </nav>
-        {showMenu &&
-          <div className='drop-menu'>
-            <a className='menu-btn' href='#about' style={{textDecoration: 'none'}}>About Me</a>
-            <a className='menu-btn' href='#skills' style={{textDecoration: 'none'}}>Skills</a>
-            <a className='menu-btn' href='#projects' style={{textDecoration: 'none'}}>Projects</a>
-            <a className='menu-btn' href='#contact' style={{textDecoration: 'none'}}>Contact</a>
-          </div>
-        }
-      </div>
-    )
-  }
-}
+function Nav(){
 
-export default Nav
+  return(
+    <div className='nav'>
+        <a className='name' href='#home' style={{textDecoration: 'none'}}> Benjamin Cook </a>
+        <DropdownButton className='menu' title='Menu' variant ='secondary' align='end'>
+          <Dropdown.Item href="#about">About</Dropdown.Item>
+          <Dropdown.Item href="#skills">Skills</Dropdown.Item>
+          <Dropdown.Item href="#projects">Projects</Dropdown.Item>
+          <Dropdown.Item href="#contact">Contact</Dropdown.Item>
+        </DropdownButton>
+    </div>
+  )
+};
+
+export default Nav;

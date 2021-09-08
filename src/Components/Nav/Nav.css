@@ -1,0 +1,57 @@
+.nav{
+  position: fixed;
+  top: 0px;
+  height: 6vh;
+  width: 100%;
+  background-color: rgb(49, 49, 49);
+  opacity: .9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 2em;
+  color: whitesmoke;
+  z-index: 10;
+}
+.name {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.menu {
+  margin-right: 50px;
+  font-size: 50%;
+  color: whitesmoke;
+  background: none;
+}
+.menu:hover {
+  color: lightskyblue;
+  border-color: lightskyblue;
+}
+.drop-menu {
+  position: fixed;
+  top: 55px;
+  right: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 124px;
+  width: 100px;
+  opacity: .9;
+  background: none;
+  z-index: 100;
+}
+.menu-btn {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100px;
+  margin-top: 1px;
+  border-top: 1px solid transparent;
+  background-color: rgb(49, 49, 49);
+  box-shadow: 5px 5px 20px 0px black;
+}
+.menu-btn:hover {
+  color: lightskyblue;
+}

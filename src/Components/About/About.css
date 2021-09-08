@@ -1,0 +1,57 @@
+.AboutMe {
+  background-color: whitesmoke;
+  position: relative;
+  /* min-height: 800px; */
+  min-height: 95vh;
+  height: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.title {
+  position: absolute;
+  top: 30px;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  background: none;
+  color: black;
+}
+
+.A-image {
+  max-height: 400px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px 0px;
+  margin: 20px;
+}
+.A-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  min-width: unset;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 20px;
+}
+.A-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  margin: 10px 0px;
+  font-size: 18px;
+}

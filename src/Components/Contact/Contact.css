@@ -1,0 +1,80 @@
+.Contact {
+  position: relative;
+  min-height: 42vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1498805983167-a523078d762c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1385&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -140px;
+  background-color: rgb(5, 5, 5);
+  
+}
+.inputs {
+  height: 300px;
+  width: 600px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  background-color: gainsboro;
+  opacity: .9;
+  border-radius: 10px;
+}
+.name-email {
+  height: 18px;
+  width: 400;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Name {
+  text-align: center;
+  margin-right: 20px;
+  width: 180px;
+  background-color: white;
+}
+.email {
+  text-align: center;
+  margin-left: 20px;
+  width: 180px;
+}
+.message {
+  height: 150px;
+  width: 400px;
+  text-align: center;
+  background-color: white;
+}
+.links {
+  height: 150px;
+  width: 600px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+  height: 100px;
+  width: 100px;
+  opacity: .8;
+}
+.link-text {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: grey;
+}
+.img {
+  margin-top: 5px;
+  height: 110px;
+  width: 110px;
+}

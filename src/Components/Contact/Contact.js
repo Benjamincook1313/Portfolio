@@ -1,82 +1,57 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios';
+import './Contact.css';
 
-class Contact extends Component {
-  constructor() {
-    super()
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
-    }
+function Contact() {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const handleChange = (e) => {
+    const { value } = e.target
+    setName(value)
+    console.log(value)
   }
 
-  handleChange = (e) => {
-    const { name, value } = e.target
-    this.setState({
-      [name]: value
-    })
-  }
-
-  sendEmail = async () => { 
-    const { name, email, message } = this.state
+  const sendEmail = async () => { 
     await axios.post('/api/sendEmail', { name, email, message })
-    this.setState({
-      name: '',
-      email: '',
-      message: ''
-    })
+      setName('')
+      setEmail('')
+      setMessage('')
   }
 
-  render(){
-    const { name, email, message } = this.state
     return(
       <div className='Contact' id='contact'>
         <h1 className='title' style={{color: 'gainsboro'}}>Connect</h1>
-        <div className='inputs'>
-        <h1 className='link-text' style={{color: 'black'}}>Email</h1>
-          <div className='name-email'>
-            <input 
-              onChange={this.handleChange}
-              className='Name'
-              placeholder='Name'
-              name='name'
-              value={name}
-            />
-            <input
-              onChange={this.handleChange} 
-              className='email'
-              placeholder='Email'
-              name='email'
-              value={email}
-            />
-          </div>
-          <input 
-            onChange={this.handleChange}
-            name='message'
-            value={message}
-            className='message'
-            placeholder='Message'
-          />
-          <button className='send' onClick={() => this.sendEmail()}>Send Email</button>
+      <div className='inputs'>
+      <h1 className='link-text' style={{color: 'black'}}>Email</h1>
+        <div className='name-email'>
+          <input onChange={handleChange} className='Name' 
+            placeholder='Name' name='name' value={name} />
+          <input onChange={handleChange} className='email'
+            placeholder='Email' name='email' value={email} />
         </div>
-        <div className='links'>
-          {/* <div className='link'>
-            <p className='link-text'>Facebook</p>
-            <a href='https://www.facebook.com/BenjaminCook1313' style={{textDecoration: 'none'}}>
-              <i className="devicon-facebook-plain colored"/>
-            </a>
-          </div> */}
-          <div className='link'>
-            <p className='link-text'>Linked In</p>
-            <a  href='https://www.linkedin.com/in/benjamincook1313/' style={{textDecoration: 'none'}}>
-              <img className='img' src='https://image.flaticon.com/icons/svg/174/174857.svg' alt='' />
-            </a>
+        <input onChange={handleChange} name='message'
+          value={message} className='message' placeholder='Message' />
+        <button className='send' onClick={() => sendEmail()}>Send Email</button>
+      </div>
+      <div className='links'>
+        <div className='link'>
+          <p className='link-text'>LinkedIn</p>
+          <a href='https://github.com/Benjamincook1313' style={{textDecoration: 'none'}}>
+            <i className="devicon-github-plain colored"/>
+          </a>
+        </div>
+        <div className='link'>
+          <div className='icon'>
+            <i className="devicon-github-plain colored"></i>
+            <p className='icon-text'>GITHUB</p>
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default Contact
