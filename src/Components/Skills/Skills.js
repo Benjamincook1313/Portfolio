@@ -7,6 +7,10 @@ function Skills() {
       <h1 className='title' style={{color: 'whitesmoke'}}>Skills</h1>
       <div className='icons'>
         <div className='icon'>
+          <i className="devicon-react-original colored"></i>
+          <p className='icon-text'>REACT</p>
+        </div>
+        <div className='icon'>
           <i className="devicon-visualstudio-plain colored"></i>
           <p className='icon-text'>VSCODE</p>
         </div>
@@ -21,10 +25,6 @@ function Skills() {
         <div className='icon'>
           <i className="devicon-javascript-plain colored"></i>
           <p className='icon-text'>JAVASCRIPT</p>
-        </div>
-        <div className='icon'>
-          <i className="devicon-react-original colored"></i>
-          <p className='icon-text'>REACT</p>
         </div>
         <div className='icon'>
           <i className="devicon-express-original colored"></i>

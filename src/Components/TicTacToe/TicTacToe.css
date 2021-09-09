@@ -1,0 +1,80 @@
+.Tic-Tac-Toe {
+  position: absolute;
+  top:30%;
+  right: 37.3%;
+  text-align: center;
+  height: 327px;
+  width: 300px;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+h1{
+  /* font-size: 32px; */
+}
+.top-bar{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  border-bottom: 2px solid black;
+  background-color: black;
+  color: white
+}
+.top-item{
+  margin: 0px 5px 0px 5px
+}
+
+.box{
+  height: 98px;
+  width: 98px;
+  background-color: teal;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one{
+  position: absolute;
+  top: 27px;
+}
+.two{
+  position: absolute;
+  top: 27px;
+  left: 100px;
+}
+.three{
+  position: absolute;
+  top: 27px;
+  right: 0px;
+}
+.four{
+  position: absolute;
+  top: 127px;
+}
+.five{
+  position: absolute;
+  top: 127px;
+  left: 100px;
+}
+.six{
+  position: absolute;
+  top: 127px;
+  right: 0px;
+}
+.seven{
+  position: absolute;
+  top: 227px;
+}
+.eight{
+  position: absolute;
+  top: 227px;
+  left: 100px;
+}
+.nine{
+  position: absolute;
+  top: 227px;
+  right: 0px;
+}
