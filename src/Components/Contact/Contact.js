@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import './Contact.css';
+import Swal from 'sweetalert2';
+import { Button } from 'react-bootstrap';
 
 function Contact() {
 
@@ -8,17 +10,31 @@ function Contact() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  const handleChange = (e) => {
-    const { value } = e.target
-    setName(value)
-    console.log(value)
+  const handleName = (e) => {
+    setName(e.target.value)
+  }
+
+  const handleEmail = (e) => {
+    setEmail(e.target.value)
+    console.log(e.target.value)
+  }
+
+  const handleMessage = (e) => {
+    setMessage(e.target.value)
   }
 
   const sendEmail = async () => { 
-    await axios.post('/api/sendEmail', { name, email, message })
-      setName('')
-      setEmail('')
-      setMessage('')
+    console.log(email)
+    if(name && email.includes('@')){
+      const res = await axios.post('/api/sendEmail', { name, email, message })
+      .catch(err => console.log(err))
+      if(res.data){
+        Swal.fire({type: 'success', title: 'Email Sent', showConfirmButton: false, timer: 2000, toast: true})
+      }
+        setName('')
+        setEmail('')
+        setMessage('')
+    }
   }
 
     return(
@@ -27,14 +43,14 @@ function Contact() {
       <div className='inputs'>
       <h1 className='link-text' style={{color: 'black'}}>Email</h1>
         <div className='name-email'>
-          <input onChange={handleChange} className='Name' 
+          <input onChange={handleName} className='Name' 
             placeholder='Name' name='name' value={name} />
-          <input onChange={handleChange} className='email'
+          <input onChange={handleEmail} className='email'
             placeholder='Email' name='email' value={email} />
         </div>
-        <input onChange={handleChange} name='message'
+        <input onChange={handleMessage} name='message'
           value={message} className='message' placeholder='Message' />
-        <button className='send' onClick={() => sendEmail()}>Send Email</button>
+        <Button className='send' onClick={sendEmail} variant='secondary' >Send Email</Button>
       </div>
       <div className='links'>
         <div className='link'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMe from '../About/About'
+import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
@@ -14,7 +14,7 @@ function Home() {
           <p className='H-title'> (Full-Stack Web Developer) </p>
         </div>
       </div>
-      <AboutMe />
+      <About />
       <Skills />
       <Projects />
       <Contact />

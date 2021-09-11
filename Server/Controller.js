@@ -27,5 +27,6 @@ module.exports = {
         console.log('Email sent!!!')
       }
     })
+    res.status(200).send(res)
   },
 }

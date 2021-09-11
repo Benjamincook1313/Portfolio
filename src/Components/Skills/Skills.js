@@ -42,6 +42,10 @@ function Skills() {
           <i className="devicon-postgresql-plain colored"></i>
           <p className='icon-text'>POSTGRESQL</p>
         </div>
+        <div className='icon'>
+        <i className="devicon-bootstrap-plain colored"></i>
+          <p className='icon-text'>BOOTSTRAP</p>
+        </div>
       </div>
     </div>
   )
