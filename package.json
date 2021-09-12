@@ -1,5 +1,5 @@
 {
-  "homepage": "http://benjamincook1313.github.io/react-deploy",
+  "homepage": "http://benjamincook1313.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,8 @@
     "sweetalert2": "^11.1.5"
   },
   "scripts": {
-    "homepage": "https://benjamincook1313.github.io/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
