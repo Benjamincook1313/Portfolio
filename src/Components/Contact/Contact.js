@@ -2,6 +2,9 @@ import './Contact.css';
 import React from 'react'
 
 function Contact() {
+
+  // tesing out github pages
+
     return(
       <div className='Contact' id='contact'>
       <h5 className='c-title'>Contact</h5>
