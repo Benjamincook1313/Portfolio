@@ -6,7 +6,7 @@ import UsCounty from '/Users/benjamin/Desktop/portfolio/src/images/Screen Shot 2
 
 function Projects() {
   return(
-    <div className='Projects'>
+    <div className='Projects' id='projects'>
       <h1 className='title'> Projects </h1>
       <br/>
       <br/>

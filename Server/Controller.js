@@ -12,6 +12,7 @@ let transporter = nodemailer.createTransport({
 
 module.exports = {
   sendEmail: (req, res) => {
+    console.log('hit')
     const { name, email, message } = req.body
     let mailOption = {
       from: EMAIL,
@@ -27,6 +28,6 @@ module.exports = {
         console.log('Email sent!!!')
       }
     })
-    res.status(200).send(res)
+    .then(res.status(200).send(res))
   },
 }
