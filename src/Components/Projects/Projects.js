@@ -17,13 +17,11 @@ function Projects() {
   const handleZoom = (id) => {
     setShowImg(true)
     setIndex(id)
-    console.log('hit', index, showImg)
   };
 
   const handleClose = () => {
     setShowImg(false)
     setIndex(0)
-    console.log('hit')
   };
 
 
@@ -61,7 +59,7 @@ function Projects() {
             and the other for catch data. 
           </p>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
-          <a href='https://github.com/Benjamincook1313/catch-tracker-app'>repository</a>
+          <a href='https://github.com/Benjamincook1313/catch-tracker-app'>github repo</a>
         </div>
         <div className='p-img-container'>
           <h4>Dental Website</h4>
@@ -75,7 +73,7 @@ function Projects() {
             site when an appointment request had been made. 
           </p>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
-          <a href='https://github.com/Benjamincook1313/personal-project'>repository</a>
+          <a href='https://github.com/Benjamincook1313/personal-project'>github repo</a>
         </div>
         <div className='p-img-container'>
           <h5>U.S. County Explorer</h5>
@@ -88,6 +86,7 @@ function Projects() {
             character temporary password that they could login with and create a new password. 
           </p>
           <img className='p-img' src={UsCounty} alt='' onClick={() => handleZoom(3)}/>
+          <a href='https://github.com/where-should-i-live/us-map'>github repo</a>
         </div>
       </section>
       <p>

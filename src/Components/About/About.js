@@ -25,7 +25,7 @@ function About() {
           <br/>
         <div className='text-container'>
           <p className='A-text'>
-             I am a full stack Web Developer in SLC, Utah. 
+             I am a full stack Software Developer in SLC, Utah. 
              I love the outdoors and spend most of my free time there.
             <br/>
             My hobbies include snowboarding, surfing, 
@@ -38,8 +38,8 @@ function About() {
             and pursue our outdoor adventures.
           </p>
           <p className='A-text'> 
-            I chose Web Development as my career to be able to work remotely and travel. However,
-            after attending DevMountain and becoming part of the Web Development Community, 
+            I chose Software Development as my career to be able to work remotely and travel. However,
+            after attending DevMountain and becoming part of the Software Development Community, 
             I am excited to advance my knowledge and education of coding, to 
             work on a team to build web apps, work with software systems, and be part of this 
             rapidly expanding industry.
