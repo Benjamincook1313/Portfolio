@@ -43,7 +43,7 @@ function Projects() {
       {showImg? 
         <div className='exp'>
           <Button className='close-exp' variant='dark' onClick={handleClose}>X</Button>
-          <img className='p-img-exp' src={img[index]} alt='' />
+          <img className='p-img-exp' src={img[index]} />
         </div>
         : null
       }
@@ -61,7 +61,7 @@ function Projects() {
             and the other for catch data. 
           </p>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
-          <a href='https://github.com/Benjamincook1313/catch-tracker-app'>go to repository</a>
+          <a href='https://github.com/Benjamincook1313/catch-tracker-app'>repository</a>
         </div>
         <div className='p-img-container'>
           <h4>Dental Website</h4>
@@ -75,7 +75,7 @@ function Projects() {
             site when an appointment request had been made. 
           </p>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
-          <a href='https://github.com/Benjamincook1313/personal-project'>go to repository</a>
+          <a href='https://github.com/Benjamincook1313/personal-project'>repository</a>
         </div>
         <div className='p-img-container'>
           <h5>U.S. County Explorer</h5>

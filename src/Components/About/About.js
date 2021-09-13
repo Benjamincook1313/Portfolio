@@ -8,8 +8,8 @@ import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_1022106
 function About() {
 
   return(
-    <div className='AboutMe' >
-      <h1 className='title'>About Me</h1>
+    <div className='About' id='about'>
+      <h1 className='title'>About</h1>
       <div className='A-info'>
       <Carousel className='carousel-wrapper'>
         <Carousel.Item>
@@ -34,7 +34,7 @@ function About() {
             to Alaska for a few years. I worked as a full time delivery driver 
             with U.P.S. but soon realized that I wanted to do more than just deliver boxes.
             We decided to move back to Utah to figure out a new career path. I found that 
-            Web Development could be a viable option as a career that would allow us to continue traveling 
+            Web/Software Development could be a viable option as a career that would allow us to continue traveling 
             and pursue our outdoor adventures.
           </p>
           <p className='A-text'> 

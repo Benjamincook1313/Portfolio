@@ -19,6 +19,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  padding: 50px 0px;
 }
 .p-img-container{
   color: black;
@@ -49,6 +50,7 @@ p{
 .p-img-exp{
   /* border: 2px solid black; */
   max-width: 100%;
+  min-height: 100%;
 }
 .close-exp{
   position: absolute;
