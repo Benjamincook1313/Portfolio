@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: gainsboro;
-  /* color: gainsboro; */
 }
 
 .title{
@@ -35,7 +34,24 @@
 .p-img {
   max-height: 220px;
   display: flex;
+  cursor: zoom-in;
 }
 p{
   margin: 5px 0px 5px 0px;
+  cursor: null;
+}
+.exp{
+  position: absolute;
+  max-width: 94%;
+  
+  box-shadow: 10px 10px 20px 0px;
+}
+.p-img-exp{
+  /* border: 2px solid black; */
+  max-width: 100%;
+}
+.close-exp{
+  position: absolute;
+  right: 20px;
+  top: 10px
 }
