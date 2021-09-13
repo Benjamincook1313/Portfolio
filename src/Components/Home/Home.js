@@ -12,7 +12,6 @@ function Home() {
         <div className='box'>
           <h1 className='H-name'>Benjamin Cook</h1>
           <p className='H-title'> (Full Stack Software Developer) </p>
-          {/* <p className='H-title'>Software/Web Developer</p> */}
         </div>
       </div>
       <About />

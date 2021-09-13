@@ -1,7 +1,6 @@
 .About {
   background-color: whitesmoke;
   position: relative;
-  /* min-height: 1200px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,9 +27,13 @@
 }
 
 .a-img {
-  /* object-fit: contain; */
   max-width: 100%;
   max-height: 100%;
+}
+.img-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 333px;
 }
 .text-container {
