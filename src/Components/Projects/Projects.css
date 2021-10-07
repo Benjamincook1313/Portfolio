@@ -58,3 +58,10 @@ p{
   right: 20px;
   top: 10px
 }
+.project-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

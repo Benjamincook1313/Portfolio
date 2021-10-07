@@ -33,8 +33,10 @@ function Projects() {
       <br/>
       <br/>
       <br/>
-      <a href='https://benjamincook1313.github.io/benjamincook1313/'>Tic Tac Toe</a>
-      <a href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon API</a>
+      <div className='project-links'>
+        <a href='https://benjamincook1313.github.io/benjamincook1313/'>Tic Tac Toe</a>
+        <a href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon API</a>
+      </div>
       <section className='p-img-section' >
 
       {/* project image expand code block */}
