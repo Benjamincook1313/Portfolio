@@ -15,6 +15,18 @@ function Skills() {
           <p className='icon-text'>VSCODE</p>
         </div>
         <div className='icon'>
+          <i className="devicon-javascript-plain colored"></i>
+          <p className='icon-text'>JAVASCRIPT</p>
+        </div>
+        <div className='icon'>
+          <i className="devicon-nodejs-plain colored"></i>
+          <p className='icon-text'>NODEJS</p>
+        </div>
+        <div className='icon'>
+          <i className="devicon-postgresql-plain colored"></i>
+          <p className='icon-text'>POSTGRESQL</p>
+        </div>
+        <div className='icon'>
           <i className="devicon-html5-plain colored"></i>
           <p className='icon-text'>HTML</p>
         </div>
@@ -23,24 +35,12 @@ function Skills() {
           <p className='icon-text'>CSS</p>
         </div>
         <div className='icon'>
-          <i className="devicon-javascript-plain colored"></i>
-          <p className='icon-text'>JAVASCRIPT</p>
-        </div>
-        <div className='icon'>
           <i className="devicon-express-original colored"></i>
           <p className='icon-text'>EXPRESS</p>
         </div>
         <div className='icon'>
-          <i className="devicon-nodejs-plain colored"></i>
-          <p className='icon-text'>NODEJS</p>
-        </div>
-        <div className='icon'>
           <i className="devicon-heroku-plain colored"></i>
           <p className='icon-text'>HEROKU</p>
-        </div>
-        <div className='icon'>
-          <i className="devicon-postgresql-plain colored"></i>
-          <p className='icon-text'>POSTGRESQL</p>
         </div>
         <div className='icon'>
         <i className="devicon-bootstrap-plain colored"></i>

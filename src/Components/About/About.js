@@ -15,14 +15,14 @@ function About() {
         <Carousel.Item>
           <img className="a-img" src={Main} alt="First slide"/>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img className="a-img" src={Bells} alt="Second slide"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="a-img" src={Stealhead} alt="Third slide"/>
-          </Carousel.Item>
-        </Carousel>
-          <br/>
+        </Carousel.Item> */}
+        <Carousel.Item>
+          <img className="a-img" src={Stealhead} alt="Third slide"/>
+        </Carousel.Item>
+      </Carousel>
+        <br/>
         <div className='text-container'>
           <p className='A-text'>
              I am a full stack Software Developer in SLC, Utah. 
