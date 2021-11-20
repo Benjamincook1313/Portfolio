@@ -34,8 +34,9 @@ function Projects() {
       <br/>
       <br/>
       <div className='project-links'>
-        <a href='https://benjamincook1313.github.io/benjamincook1313/'>Tic Tac Toe</a>
-        <a href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon API</a>
+        <a href='https://benjamincook1313.github.io/benjamincook1313/'>TicTacToe</a>
+        <a href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon Matching Game</a>
+        <a href='https://benjamincook1313.github.io/stop-watch/'>Stop Watch</a>
       </div>
       <section className='p-img-section' >
 
