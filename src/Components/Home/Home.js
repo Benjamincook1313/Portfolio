@@ -10,8 +10,8 @@ function Home() {
     <div className='landing-page'>
       <div className='Home' id='home'>
         <div className='box'>
-          <h1 className='H-name'>Benjamin Cook</h1>
-          <p className='H-title'> (Full Stack Software Developer) </p>
+          <h1 className='H-name'> Benjamin Cook </h1>
+          <h5 className='H-title'> ~ Software Engineer ~ </h5>
         </div>
       </div>
       <About />

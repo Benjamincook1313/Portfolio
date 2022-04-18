@@ -3,7 +3,7 @@ import './About.css';
 import { Carousel } from 'react-bootstrap';
 import Main from '/Users/benjamin/Desktop/portfolio/src/images/64827663_2809731762387672_1789481639793917952_n copy.jpg';
 import Stealhead from '/Users/benjamin/Desktop/portfolio/src/images/steelhead.jpg'
-import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_10221063967652828_1252318498219098112_o.jpg';
+// import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_10221063967652828_1252318498219098112_o.jpg';
 
 function About() {
 
@@ -24,25 +24,18 @@ function About() {
       </Carousel>
         <br/>
         <div className='text-container'>
-          <p className='A-text'>
-             I am a full stack Software Developer in SLC, Utah. 
-             I love the outdoors and spend most of my free time there.
+          <text className='A-text'>
+            I am an adventurous Software Engineer 
             <br/>
-            My hobbies include snowboarding, surfing, 
-            fly fishing, backpacking, and more. My wife Melissa and I
-            have been married since January of 2013, shortly after we moved 
-            to Alaska for a few years. I worked as a full time delivery driver 
-            with U.P.S. but soon realized that I wanted to do more than just deliver boxes.
-            We decided to move back to Utah to figure out a new career path. I found that 
-            Web/Software Development could be a viable option as a career that would allow us to continue traveling 
-            and pursue our outdoor adventures.
-          </p>
+            from the Salt Lake, Utah area. 
+            <p></p>
+            - Built several full-stack applications in React with Javascript | Node.js | Express | Redux | PostgreSQL | HTML | CSS
+            <p></p>
+            My hobbies include Programming, Solving Puzzles, Snowboarding, Fly Fishing and Surfing. 
+          </text>
           <p className='A-text'> 
-            I chose Software Development as my career to be able to work remotely and travel. However,
-            after attending DevMountain and becoming part of the Software Development Community, 
-            I am excited to advance my knowledge and education of coding, to 
-            work on a team to build web apps, work with software systems, and be part of this 
-            rapidly expanding industry.
+            I chose Programming as my career to be able to work remote and travel. After attending DevMountain's Web Development Immersive Program and becoming part of the Tech Community, 
+            I am also excited to advance my knowledge and skill as an Engineer and be part of this rapidly expanding industry.
           </p>
           <br/>
         </div>

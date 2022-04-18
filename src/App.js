@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <Nav/>
       <Route path='/' component={ Home } />
-      <img src='Method' alt='' />
+      {/* <img src='Method' alt='' /> */}
     </div>
   )
 }

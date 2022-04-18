@@ -45,7 +45,7 @@ function Projects() {
       {showImg? 
         <div className='exp'>
           <Button className='close-exp' variant='dark' onClick={handleClose}>X</Button>
-          <img className='p-img-exp' src={img[index]} />
+          <img className='p-img-exp' src={img[index]} alt='none'/>
         </div>
         : null
       }
