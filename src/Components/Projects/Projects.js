@@ -54,13 +54,7 @@ function Projects() {
         <div className='p-img-container' cursor='zoom-in'>
           <h4>Catch Tracker</h4>
           <p>
-            This project is a single page application for fly fisherman to be able to 
-            store data about each catch; such as location, weather, fly used, fish 
-            species, date, time of day, and comments. I used REACT BOOTSTRAP for 
-            dropdown menus and inputs, REDUX for managing all the data, full CRUD for 
-            each catch, Google FIREBASE for the user to be able to upload images 
-            and a POSTICO and HEROKU DATABASE with two tables for the users information
-            and the other for catch data. 
+            Web Application for Fly Fisherman to select and store catch data; Location, Weather, Fly, Species, Date, Time, and additional comments. Bootstrap for dropdowns and inputs, REDUX for state managment, RESTful API's, Google FIREBASE to store uploaded images and Bcrypt, Hash and salt to secure passwords.
           </p>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
           <a href='https://github.com/Benjamincook1313/catch-tracker-app'>github repo</a>
@@ -68,13 +62,7 @@ function Projects() {
         <div className='p-img-container'>
           <h4>Dental Website</h4>
           <p>
-            This was my first full stack project, it contains EXPRESS/NODE authentication for 
-            admins to be able to add or remove information on each page, I got to 
-            work with REACT ROUTER DOM for each page. the user on the page could 
-            request an appointment by entering in their contact information which
-            would then be able to be accessed by a pages admin. I used nodemailer
-            send an email to the admins so that they would only have to login to the
-            site when an appointment request had been made. 
+            First full stack project, User's could request an appointment by entering in their contact information Form. Nodemailer sends administrator a notification when a request is submited. React-Router-Dom for page routes where users can learn more about the Dental Office and Services they Provided.
           </p>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
           <a href='https://github.com/Benjamincook1313/personal-project'>github repo</a>
@@ -82,20 +70,14 @@ function Projects() {
         <div className='p-img-container'>
           <h5>U.S. County Explorer</h5>
           <p>
-            Group Project , My responsibilities for this were to 
-            connect to API's to pull in the data for all the us counties that we than used 
-            determine the best places to live based on average temperature, household incomes, 
-            property values, commute time, and median age of the general population. I also 
-            built the password reset feature using NODEMAILER to send the user a random 10
-            character temporary password that they could login with and create a new password. 
+            Group Project, my responsibilities: connecting to API's to pull in Data for all US Counties to determine the best places to live based on average temperature, household incomes, property values, commute times, and median age of the general population. Also built the password reset feature using NODEMAILER to send the user a temporary password to login and create a new password. 
           </p>
-          <img className='p-img' src={UsCounty} alt='' onClick={() => handleZoom(3)}/>
+          <img className='p-img' src={ UsCounty } alt='' onClick={() => handleZoom(3)}/>
           <a href='https://github.com/where-should-i-live/us-map'>github repo</a>
         </div>
       </section>
       <p>
-        ( these projects are not currently hosted however the code for each project is 
-        available to view on github )
+        ( these projects are not currently hosted however the code for each project is available to view on github )
         {/* <a href='https://benjamincook1313.github'>github</a> ) */}
       </p>
     </div>
