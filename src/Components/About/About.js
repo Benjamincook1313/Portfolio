@@ -29,7 +29,7 @@ function About() {
             <br/>
             from the Salt Lake, Utah area. 
             <p></p>
-            - Built several full-stack applications in React with Javascript | Node.js | Express | Redux | PostgreSQL | HTML | CSS
+            - Built several full-stack applications in React with Javascript | Node.js | Express | Redux | PostgreSQL | Heroku | HTML | CSS
             <p></p>
             My hobbies include Programming, Solving Puzzles, Snowboarding, Fly Fishing and Surfing. 
           </text>
