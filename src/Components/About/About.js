@@ -6,7 +6,6 @@ import Stealhead from '/Users/benjamin/Desktop/portfolio/src/images/steelhead.jp
 // import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_10221063967652828_1252318498219098112_o.jpg';
 
 function About() {
-
   return(
     <div className='About' id='about'>
       <h1 className='title'>About</h1>
