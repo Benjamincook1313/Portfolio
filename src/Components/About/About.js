@@ -3,7 +3,7 @@ import './About.css';
 import { Carousel } from 'react-bootstrap';
 import Main from '/Users/benjamin/Desktop/portfolio/src/images/64827663_2809731762387672_1789481639793917952_n copy.jpg';
 import Stealhead from '/Users/benjamin/Desktop/portfolio/src/images/steelhead.jpg'
-// import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_10221063967652828_1252318498219098112_o.jpg';
+import Bells from '/Users/benjamin/Desktop/portfolio/src/images/80093560_10221063967652828_1252318498219098112_o.jpg';
 
 function About() {
   return(

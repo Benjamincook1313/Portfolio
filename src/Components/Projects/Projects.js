@@ -12,8 +12,6 @@ function Projects() {
 
   const img = ['', CatchTracker, Dental, UsCounty]
 
-
-
   const handleZoom = (id) => {
     setShowImg(true)
     setIndex(id)
@@ -29,19 +27,12 @@ function Projects() {
   return(
     <div className='Projects' id='projects'>
       <h1 className='title'> Projects </h1>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <div className='project-links'>
-        <a href='https://benjamincook1313.github.io/benjamincook1313/'>TicTacToe</a>
-        <a href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon Matching Game</a>
-        <a href='https://benjamincook1313.github.io/stop-watch/'>Stop Watch</a>
+        <Button variant='dark' href='https://benjamincook1313.github.io/benjamincook1313/'>TicTacToe</Button>
+        <Button variant='dark' href='https://benjamincook1313.github.io/Pokemon-api/'>Pokemon Matching Game</Button>
+        <Button variant='dark' href='https://benjamincook1313.github.io/stop-watch/'>Stop Watch</Button>
       </div>
       <section className='p-img-section' >
-
-      {/* project image expand code block */}
-
       {showImg? 
         <div className='exp'>
           <Button className='close-exp' variant='dark' onClick={handleClose}>X</Button>
@@ -49,37 +40,38 @@ function Projects() {
         </div>
         : null
       }
-
-
         <div className='p-img-container' cursor='zoom-in'>
           <h4>Catch Tracker</h4>
+          <p> React | JavaScript | NodeJS | Firebase | Redux | SweetAlert2 | Bcrypt</p>
           <p>
-            Web Application for Fly Fisherman to select and store catch data; Location, Weather, Fly, Species, Date, Time, and additional comments. Bootstrap for dropdowns and inputs, REDUX for state managment, RESTful API's, Google FIREBASE to store uploaded images and Bcrypt, Hash and salt to secure passwords.
+            A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
           </p>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
-          <a href='https://github.com/Benjamincook1313/catch-tracker-app'>github repo</a>
+          <br/>
+          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>github repo</Button>
         </div>
         <div className='p-img-container'>
           <h4>Dental Website</h4>
+          <p> React | NodeJS | PostgreSQl | Express | React-Router-Dom | Nodemailer </p>
           <p>
-            First full stack project, User's could request an appointment by entering in their contact information Form. Nodemailer sends administrator a notification when a request is submited. React-Router-Dom for page routes where users can learn more about the Dental Office and Services they Provided.
+            User's can learn more about the Dental Office and Services they Provided and request an appointment by entering in their contact information in form. the administrator also will receive an email notification when a request is submited. 
           </p>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
-          <a href='https://github.com/Benjamincook1313/personal-project'>github repo</a>
+          <br/>
+          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/personal-project'>Github repo</Button>
         </div>
         <div className='p-img-container'>
           <h5>U.S. County Explorer</h5>
+          <p> API's | React-Hooks | NodeJS | Sass | User Authentication | Nodemailer</p>
           <p>
-            Group Project, my responsibilities: connecting to API's to pull in Data for all US Counties to determine the best places to live based on average temperature, household incomes, property values, commute times, and median age of the general population. Also built the password reset feature using NODEMAILER to send the user a temporary password to login and create a new password. 
+            Group Project, Determines the best places to live based on average temperature, household incomes, property values, commute times, and median age of local population. 
           </p>
           <img className='p-img' src={ UsCounty } alt='' onClick={() => handleZoom(3)}/>
-          <a href='https://github.com/where-should-i-live/us-map'>github repo</a>
+          <br/>
+          <Button variant='dark' size='sm' href='https://github.com/where-should-i-live/us-map'>Github Repo</Button>
         </div>
       </section>
-      <p>
-        ( these projects are not currently hosted however the code for each project is available to view on github )
-        {/* <a href='https://benjamincook1313.github'>github</a> ) */}
-      </p>
+      <p> ~ view code for each project on github ~ </p>
     </div>
   )
 }
