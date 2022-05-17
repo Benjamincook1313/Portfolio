@@ -40,16 +40,6 @@ function Projects() {
         </div>
         : null
       }
-        <div className='p-img-container' cursor='zoom-in'>
-          <h4>Catch Tracker</h4>
-          <p> React | JavaScript | NodeJS | Firebase | Redux | SweetAlert2 | Bcrypt</p>
-          <p>
-            A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
-          </p>
-          <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
-          <br/>
-          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>github repo</Button>
-        </div>
         <div className='p-img-container'>
           <h4>Dental Website</h4>
           <p> React | NodeJS | PostgreSQl | Express | React-Router-Dom | Nodemailer </p>
@@ -59,6 +49,16 @@ function Projects() {
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
           <br/>
           <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/personal-project'>Github repo</Button>
+        </div>
+        <div className='p-img-container' cursor='zoom-in'>
+          <h4>Catch Tracker</h4>
+          <p> React | JavaScript | NodeJS | Firebase | Redux | SweetAlert2 | Bcrypt</p>
+          <p>
+            A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
+          </p>
+          <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
+          <br/>
+          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>Github repo</Button>
         </div>
         <div className='p-img-container'>
           <h5>U.S. County Explorer</h5>
