@@ -41,27 +41,27 @@ function Projects() {
         : null
       }
         <div className='p-img-container'>
-          <h4>Dental Website</h4>
+          <h4 className='p-title'>Dental Website</h4>
           <p> React | NodeJS | PostgreSQl | Express | React-Router-Dom | Nodemailer </p>
           <p>
             User's can learn more about the Dental Office and Services they Provided and request an appointment by entering in their contact information in form. the administrator also will receive an email notification when a request is submited. 
           </p>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
           <br/>
-          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/personal-project'>Github repo</Button>
+          <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/personal-project'>Github repo</Button>
         </div>
         <div className='p-img-container' cursor='zoom-in'>
-          <h4>Catch Tracker</h4>
+          <h4 className='p-title'>Catch Tracker</h4>
           <p> React | JavaScript | NodeJS | Firebase | Redux | SweetAlert2 | Bcrypt</p>
           <p>
             A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
           </p>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
           <br/>
-          <Button Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>Github repo</Button>
+          <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>Github repo</Button>
         </div>
         <div className='p-img-container'>
-          <h5>U.S. County Explorer</h5>
+          <h4 className='p-title'>U.S. County Explorer</h4>
           <p> API's | React-Hooks | NodeJS | Sass | User Authentication | Nodemailer</p>
           <p>
             Group Project, Determines the best places to live based on average temperature, household incomes, property values, commute times, and median age of local population. 
