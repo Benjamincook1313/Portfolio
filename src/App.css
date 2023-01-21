@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background-color: whitesmoke;
 }
 ol, ul {
 	list-style: none;
@@ -94,8 +95,7 @@ a{
 
 }
 .title {
-  position: absolute;
-  top: 30px;
+  margin: 20px;
   font-size: 3em;
   width: 100%;
   text-align: center;
@@ -103,5 +103,4 @@ a{
   text-decoration: underline;
   background: none;
   color: black;
-  font-family: ;
 }

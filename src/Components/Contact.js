@@ -35,7 +35,7 @@ function Contact() {
           <i className="devicon-linkedin-plain colored" style={{'fontSize': '45px'}}/>
           <p>LinkedIn</p>
         </Icon>
-        <div className='c-icon' style={{zIndex: '0'}} href='https://github.com/Benjamincook1313' style={{cursor: 'pointer'}}>
+        <div className='c-icon' style={{zIndex: '0', cursor: 'pointer'}} href='https://github.com/Benjamincook1313'>
           <i className="devicon-github-original colored" style={{'fontSize': '45px'}}/>
           <p>GitHub</p>
         </div>

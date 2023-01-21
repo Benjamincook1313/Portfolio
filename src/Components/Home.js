@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 const Page = styled.div`
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1455156218388-5e61b526818b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
   background-image: url('https://images.unsplash.com/photo-1531884422565-1b4a26326a31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-image: url('https://images.unsplash.com/photo-1455156218388-5e61b526818b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  min-height: 800px;
+  height: 700px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;

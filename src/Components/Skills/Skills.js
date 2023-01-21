@@ -7,6 +7,18 @@ function Skills() {
       <h1 className='title' style={{color: 'whitesmoke'}}>Skills</h1>
       <div className='icons'>
         <div className='icon'>
+          <i class="devicon-java-plain colored"></i>
+          <p className='icon-text'>JAVA</p>
+        </div>
+        <div className='icon'>
+          <i class="devicon-spring-plain colored"></i>
+          <p className='icon-text'>SPRING</p>
+        </div>
+        <div className='icon'>
+          <i class="devicon-intellij-plain colored"></i>
+          <p className='icon-text'>INTELLIJ</p>
+        </div>
+        <div className='icon'>
           <i className="devicon-react-original colored"></i>
           <p className='icon-text'>REACT</p>
         </div>

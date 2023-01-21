@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import './Projects.css';
-import CatchTracker from '/Users/benjamin/Desktop/portfolio/src/images/Screen Shot 2019-12-06 at 5.17.57 PM.png';
-import Dental from '/Users/benjamin/Desktop/portfolio/src/images/Screen Shot 2019-12-06 at 5.19.21 PM.png';
-import UsCounty from '/Users/benjamin/Desktop/portfolio/src/images/Screen Shot 2019-12-06 at 5.25.44 PM.png';
+import CatchTracker from '../../images/Screen Shot 2019-12-06 at 5.17.57 PM.png';
+import Dental from '../../images/Screen Shot 2019-12-06 at 5.19.21 PM.png';
+import UsCounty from '../../images/Screen Shot 2019-12-06 at 5.25.44 PM.png';
 
 function Projects() {
 
@@ -52,7 +52,7 @@ function Projects() {
         </div>
         <div className='p-img-container' cursor='zoom-in'>
           <h4 className='p-title'>Catch Tracker</h4>
-          <p> React | JavaScript | NodeJS | Firebase | Redux | SweetAlert2 | Bcrypt</p>
+          <p> React | JavaScript | NodeJS | Java | SpringBoot | Maven | Redux | SweetAlert2 | Bcrypt</p>
           <p>
             A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
           </p>
