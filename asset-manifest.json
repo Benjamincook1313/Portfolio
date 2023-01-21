@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.37c7b1a7.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d2a56f4a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d2a56f4a.chunk.js.map",
-    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
-    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.c275a836.chunk.js": "/Portfolio/static/js/2.c275a836.chunk.js",
-    "static/js/2.c275a836.chunk.js.map": "/Portfolio/static/js/2.c275a836.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f479855c.css",
+    "main.js": "/Portfolio/static/js/main.83b3306a.js",
+    "static/media/Screen Shot 2019-12-06 at 5.17.57 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.17.57 PM.ccd4501321a000234f57.png",
+    "static/media/Screen Shot 2019-12-06 at 5.19.21 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.19.21 PM.81d7bfaa4a8946b38140.png",
+    "static/media/Screen Shot 2019-12-06 at 5.25.44 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.25.44 PM.1f31f842a3030be2d11d.png",
+    "static/media/steelhead.jpg": "/Portfolio/static/media/steelhead.14f68a78aa0ce56657e1.jpg",
+    "static/media/64827663___n copy.jpg": "/Portfolio/static/media/64827663_2809731762387672_1789481639793917952_n copy.fb2026ec5a18ea4b231c.jpg",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.3d3c68a68ba611329439fdf0c82c3764.js": "/Portfolio/precache-manifest.3d3c68a68ba611329439fdf0c82c3764.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.37c7b1a7.chunk.css.map": "/Portfolio/static/css/main.37c7b1a7.chunk.css.map",
-    "static/media/64827663_2809731762387672_1789481639793917952_n copy.jpg": "/Portfolio/static/media/64827663_2809731762387672_1789481639793917952_n copy.777deb4a.jpg",
-    "static/media/80093560_10221063967652828_1252318498219098112_o.jpg": "/Portfolio/static/media/80093560_10221063967652828_1252318498219098112_o.2648c0ab.jpg",
-    "static/media/Screen Shot 2019-12-06 at 5.17.57 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.17.57 PM.bdfcb6c0.png",
-    "static/media/Screen Shot 2019-12-06 at 5.19.21 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.19.21 PM.25291133.png",
-    "static/media/Screen Shot 2019-12-06 at 5.25.44 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.25.44 PM.a3643209.png",
-    "static/media/steelhead.jpg": "/Portfolio/static/media/steelhead.c19ef3e5.jpg"
-  }
+    "main.f479855c.css.map": "/Portfolio/static/css/main.f479855c.css.map",
+    "main.83b3306a.js.map": "/Portfolio/static/js/main.83b3306a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f479855c.css",
+    "static/js/main.83b3306a.js"
+  ]
 }
