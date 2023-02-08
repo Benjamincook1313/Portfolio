@@ -7,6 +7,8 @@ const CPage = styled.div`
   flex-direction: column;
   justify-content: center;
   font-family: Roboto;
+  background-color: black;
+  color: whitesmoke;
 `
 
 const Wrapper = styled.div`
@@ -16,29 +18,30 @@ const Wrapper = styled.div`
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
-  position: relative;
-  top: 8px;
+  margin: 10px;
 `
 
-const Icon = styled.div`
+const Icon = styled.a`
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: black;
+  text-decoration: unset;
+  font-weight: bolder;
 `
 
 function Contact() {
   return(
-    <CPage id='Contact'>
+    <CPage className='contact' id='contact'>
+      <h1 className='title' style={{color: "white"}}>Connect</h1>
       <Wrapper >
         <Icon href='https://www.linkedin.com/in/benjamincook1313/' style={{cursor: 'pointer'}}>
           <i className="devicon-linkedin-plain colored" style={{'fontSize': '45px'}}/>
           <p>LinkedIn</p>
         </Icon>
-        <div className='c-icon' style={{zIndex: '0', cursor: 'pointer'}} href='https://github.com/Benjamincook1313'>
+        <Icon className='c-icon' style={{cursor: 'pointer'}} href='https://github.com/Benjamincook1313'>
           <i className="devicon-github-original colored" style={{'fontSize': '45px'}}/>
           <p>GitHub</p>
-        </div>
+        </Icon>
       </Wrapper>
     </CPage>
   )
