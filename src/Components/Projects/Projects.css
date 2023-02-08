@@ -9,6 +9,9 @@
   font-family: Roboto,  sans-serif;
 }
 
+.p-title{
+  font-weight: bolder;
+}
 
 .p-img-section {
   width: 100vw;
@@ -34,7 +37,7 @@
   border-radius: 5px;
   box-shadow: 15px 15px 15px;
   background-color: whitesmoke;
-  margin: 20px;
+  margin: 25px;
 }
 
 .p-img {
