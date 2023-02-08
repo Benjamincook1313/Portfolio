@@ -6,14 +6,12 @@ import Dental from '../../images/Screen Shot 2019-12-06 at 5.19.21 PM.png';
 import UsCounty from '../../images/Screen Shot 2019-12-06 at 5.25.44 PM.png';
 import Memory from "../../images/Memory.png"
 
-// Projects Page
-
 function Projects() {
 
   const [showImg, setShowImg] = useState(false)
   const [index, setIndex] = useState(0)
 
-  const img = ['', CatchTracker, Dental, UsCounty]
+  const img = [Memory, CatchTracker, Dental, UsCounty]
 
   const handleZoom = (id) => {
     setShowImg(true)
@@ -49,7 +47,7 @@ function Projects() {
           <p>
             Fun game using data from a pokemon api, select groups by generation or type. Sort alphabetically, by id or just shuffle into a random order. User's can also search for a specific pokemon and play a game of memory. The game has 2 player mode and a timer to track how fast you can make it through the chosen deck.
           </p>
-          <img className='p-img' src={Memory} alt='' onClick={() => handleZoom(2)}/>
+          <img className='p-img' src={Memory} alt='' onClick={() => handleZoom(0)}/>
           <br/>
           <span className='card-btns'>
             <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/Pokemon-api'>Github repo</Button>
