@@ -56,7 +56,7 @@ function Projects() {
           <img className='p-img' src={Quili} alt='' onClick={() => handleZoom(4)}/>
           <br/>
           <span className='card-btns'>
-            <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/Pokemon-api'>Github Repo</Button>
+            <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/JavaCapstone'>Github Repo</Button>
             <Button variant='dark' size='sm' href='https://www.youtube.com/watch?v=9Br6U35QOU4'>Demo Video</Button>
           </span>
         </div>
