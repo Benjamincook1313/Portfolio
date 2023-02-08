@@ -52,8 +52,9 @@ function Projects() {
             A mobile first list-app for storing lists such as: Shopping, Tasks and  Items.
             Fully functional user authentication with password encryption. User's can create, view, update and delete each lists and/or the associated items. also sort by category, alphabetically or by order added.
           </p>
-
+          <br/>
           <img className='p-img' src={Quili} alt='' onClick={() => handleZoom(4)}/>
+          <br/>
           <span className='card-btns'>
             <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/Pokemon-api'>Github Repo</Button>
             <Button variant='dark' size='sm' href='https://www.youtube.com/watch?v=9Br6U35QOU4'>Demo Video</Button>
@@ -68,9 +69,9 @@ function Projects() {
           <p>
             Fun game using data from a pokemon api, select groups by generation or type. Sort alphabetically, by id or just shuffle into a random order. User's can also search for a specific pokemon and play a game of memory. The game has 2 player mode and a timer to track how fast you can make it through the chosen deck.
           </p>
-
+          <br/> 
           <img className='p-img' src={Memory} alt='' onClick={() => handleZoom(0)}/>
-
+          <br/>
           <span className='card-btns'>
             <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/Pokemon-api'>Github Repo</Button>
             <Button variant='dark' size='sm' href='https://benjamincook1313.github.io/Pokemon-api/'>Game</Button> 
@@ -83,9 +84,9 @@ function Projects() {
           <p>
             User's can learn more about the Dental Office and Services they Provided and request an appointment by entering in their contact information in form. the administrator also will receive an email notification when a request is submited. 
           </p>
-
+          <br/>
           <img className='p-img' src={Dental} alt='' onClick={() => handleZoom(2)}/>
-
+          <br/>
           <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/personal-project'>Github Repo</Button>
         </div>
 
@@ -99,9 +100,9 @@ function Projects() {
           <p>
             A RESTful Web Application for Fly Fisherman to store data about each catch to better understand how conditions affect the food availabilty of the fish.
           </p>
-
+          <br/>
           <img className='p-img' src={CatchTracker} alt='' onClick={() => handleZoom(1)}/>
-
+          <br/>
           <Button variant='dark' size='sm' href='https://github.com/Benjamincook1313/catch-tracker-app'>Github Repo</Button>
         </div>
 
@@ -115,9 +116,9 @@ function Projects() {
           <p>
             Group Project, Determines the best places to live based on average temperature, household incomes, property values, commute times, and median age of local population. 
           </p>
-
+          <br/>
           <img className='p-img' src={ UsCounty } alt='' onClick={() => handleZoom(3)}/>
-
+          <br/>
           <Button variant='dark' size='sm' href='https://github.com/where-should-i-live/us-map'>Github Repo</Button>
         </div>
       </section>
