@@ -6,6 +6,8 @@ import Dental from '../../images/Screen Shot 2019-12-06 at 5.19.21 PM.png';
 import UsCounty from '../../images/Screen Shot 2019-12-06 at 5.25.44 PM.png';
 import Memory from "../../images/Memory.png"
 
+// Projects Page
+
 function Projects() {
 
   const [showImg, setShowImg] = useState(false)
