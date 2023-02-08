@@ -7,6 +7,8 @@ import UsCounty from '../../images/Screen Shot 2019-12-06 at 5.25.44 PM.png';
 import Memory from "../../images/Memory.png"
 import Quili from "../../images/Quili.png"
 
+// deploy
+
 function Projects() {
 
   const [showImg, setShowImg] = useState(false)
