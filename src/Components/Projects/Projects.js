@@ -43,9 +43,9 @@ function Projects() {
       }
         <div className='p-img-container'>
           <h4 className='p-title'>Pokemon Memory Game</h4>
-          <p> React | JavaScript | Bootstrap | SweetAlert2 </p>
+          <p> React | JavaScript | Bootstrap | SweetAlert2 | Pokemon API </p>
           <p>
-            User's can learn more about the Dental Office and Services they Provided and request an appointment by entering in their contact information in form. the administrator also will receive an email notification when a request is submited. 
+            Fun game using data from a pokemon api, select groups by generation or type. Sort alphabetically, by id or just shuffle into a random order. User's can also search for a specific pokemon and play a game of memory. The game has 2 player mode and a timer to track how fast you can make it through the chosen deck.
           </p>
           <img className='p-img' src={Memory} alt='' onClick={() => handleZoom(2)}/>
           <br/>
