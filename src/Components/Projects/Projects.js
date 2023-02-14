@@ -112,7 +112,7 @@ function Projects() {
           <h4 className='p-title'>U.S. County Explorer</h4>
 
           <p> 
-            PI's | React-Hooks | NodeJS | Sass | User Authentication | Nodemailer
+            API's | React-Hooks | NodeJS | Sass | User Authentication | Nodemailer
           </p>
 
           <p>

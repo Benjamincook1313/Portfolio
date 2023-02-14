@@ -55,8 +55,16 @@ function Skills() {
           <p className='icon-text'>HEROKU</p>
         </div>
         <div className='icon'>
-        <i className="devicon-bootstrap-plain colored"></i>
+          <i className="devicon-bootstrap-plain colored"></i>
           <p className='icon-text'>BOOTSTRAP</p>
+        </div>
+        <div className='icon'>
+          <i class="devicon-selenium-original colored"></i>
+          <p className='icon-text'>SELENIUM</p>
+        </div>
+        <div className='icon'>
+          <i class="devicon-jest-plain colored"></i>
+          <p className='icon-text'>JEST</p>
         </div>
       </div>
     </div>
