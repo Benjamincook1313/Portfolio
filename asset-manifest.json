@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fbb03f58.css",
-    "main.js": "/Portfolio/static/js/main.7bab3bea.js",
+    "main.css": "/Portfolio/static/css/main.ae6db088.css",
+    "main.js": "/Portfolio/static/js/main.66f7b755.js",
     "static/media/Memory.png": "/Portfolio/static/media/Memory.dc0a5d51c5f80f55e86c.png",
     "static/media/Screen Shot 2019-12-06 at 5.17.57 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.17.57 PM.ccd4501321a000234f57.png",
     "static/media/Screen Shot 2019-12-06 at 5.19.21 PM.png": "/Portfolio/static/media/Screen Shot 2019-12-06 at 5.19.21 PM.81d7bfaa4a8946b38140.png",
@@ -10,11 +10,11 @@
     "static/media/steelhead.jpg": "/Portfolio/static/media/steelhead.14f68a78aa0ce56657e1.jpg",
     "static/media/64827663___n copy.jpg": "/Portfolio/static/media/64827663_2809731762387672_1789481639793917952_n copy.fb2026ec5a18ea4b231c.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.fbb03f58.css.map": "/Portfolio/static/css/main.fbb03f58.css.map",
-    "main.7bab3bea.js.map": "/Portfolio/static/js/main.7bab3bea.js.map"
+    "main.ae6db088.css.map": "/Portfolio/static/css/main.ae6db088.css.map",
+    "main.66f7b755.js.map": "/Portfolio/static/js/main.66f7b755.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb03f58.css",
-    "static/js/main.7bab3bea.js"
+    "static/css/main.ae6db088.css",
+    "static/js/main.66f7b755.js"
   ]
 }
