@@ -7,15 +7,15 @@ function Skills() {
       <h1 className='title' style={{color: 'whitesmoke'}}>Skills</h1>
       <div className='icons'>
         <div className='icon'>
-          <i class="devicon-java-plain colored"></i>
+          <i className="devicon-java-plain colored"></i>
           <p className='icon-text'>JAVA</p>
         </div>
         <div className='icon'>
-          <i class="devicon-spring-plain colored"></i>
+          <i className="devicon-spring-plain colored"></i>
           <p className='icon-text'>SPRING</p>
         </div>
         <div className='icon'>
-          <i class="devicon-intellij-plain colored"></i>
+          <i className="devicon-intellij-plain colored"></i>
           <p className='icon-text'>INTELLIJ</p>
         </div>
         <div className='icon'>
@@ -59,11 +59,11 @@ function Skills() {
           <p className='icon-text'>BOOTSTRAP</p>
         </div>
         <div className='icon'>
-          <i class="devicon-selenium-original colored"></i>
+          <i className="devicon-selenium-original colored"></i>
           <p className='icon-text'>SELENIUM</p>
         </div>
         <div className='icon'>
-          <i class="devicon-jest-plain colored"></i>
+          <i className="devicon-jest-plain colored"></i>
           <p className='icon-text'>JEST</p>
         </div>
       </div>

@@ -104,3 +104,7 @@ a{
   background: none;
   color: black;
 }
+
+p:hover{
+  text-decoration: unset;
+}

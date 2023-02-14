@@ -25,8 +25,12 @@ const Icon = styled.a`
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-decoration: unset;
+  text-decoration: none;
   font-weight: bolder;
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 3px;
+  /* box-shadow: 10px 10px 8px 10px #888888; */
 `
 
 function Contact() {
@@ -39,7 +43,7 @@ function Contact() {
           <p>LinkedIn</p>
         </Icon>
         <Icon className='c-icon' style={{cursor: 'pointer'}} href='https://github.com/Benjamincook1313'>
-          <i className="devicon-github-original colored" style={{'fontSize': '45px'}}/>
+          <i className="devicon-github-original" style={{'fontSize': '45px'}}/>
           <p>GitHub</p>
         </Icon>
       </Wrapper>
